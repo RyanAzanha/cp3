@@ -1,0 +1,227 @@
+
+body {
+    color: black;
+}
+
+
+.main {
+    height: 60vh;
+    background-image: url(/src/img/bg-header.jpg);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    padding-top: 20px;
+}
+
+header .logo img {
+    width: 14rem;
+}
+
+header .navegacao ul {
+    display:flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header .navegacao ul li a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textos {
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.icones {
+    display: flex;
+    gap: 20px;
+}
+
+.textos h4 {
+    color: rgb(245,245,245);
+    font-size: 25px;
+}
+
+.textos h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.inicio .textos a {
+    color: white;
+    margin-top: 15px;
+    background-color: rgb(229, 193, 62);
+}
+
+.contato {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-tela {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text h3 {
+    color: rgb(254,209,54);
+}
+
+.text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.texto-baixo {
+    margin-top: 20px;
+}
+
+.texto-baixo p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+    margin: 0;
+}
+
+.texto-baixo .botao {
+    margin-top: 50px;
+}
+
+.texto-baixo .botao a {
+    color: white;
+    font-weight: 700;
+    background-color: rgb(254,209,54);
+    padding: 20px;
+    
+}
+
+.pessoas {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-pessoas {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto-pessoas p {
+    color: rgb(100, 98, 98);
+    margin: 0;
+}
+
+.funcoes {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-funcoes {
+    text-align: center;
+}
+
+.funcoes .texto-funcoes h3 {
+    color: rgb(157, 129, 29);
+}
+
+.texto-funcoes p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.caixa-funcoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-funcoes1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.celular {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-celular {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.texto-celular p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.contato2 {
+    background-color: rgb(255,255,255);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-contato2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto-contato2 h3 {
+    color: rgb(254,209,54);
+}
+
+.texto-contato2 p {
+    color: rgb(119,119,119);
+    margin: 0;
+}
+
+.formulario {
+    background-image: url(/src/assets/img/bg-footer.jpg);
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-imagem img {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 14rem;
+}
